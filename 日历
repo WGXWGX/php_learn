@@ -13,7 +13,6 @@
 			$this->firstday=date('w',mktime(0,0,0,$this->month,1,$this->year));
 			$this->mdays=date('t',mktime(0,0,0,$this->month,1,$this->year));
 		}
-		
 		public function out(){
 			echo "<table align='center'>";
 			$this->changwd();
@@ -21,7 +20,6 @@
 			$this->daysList();
 			echo "</table>";
 		}
-		
 		public function prevyear($year,$month){
 			if($year==1970){
 				$year=$year;
@@ -31,7 +29,6 @@
 			
 			return "year=$year&month=$month";
 		}
-		
 		public function prevmonth($year,$month){
 			if($month==1){
 				$month=12;
