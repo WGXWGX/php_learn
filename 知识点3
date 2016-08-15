@@ -19,8 +19,7 @@
 	$a=$_GET['name']?$_GET['name']:2;
 	echo $a;
 	*/
-	
-	//@mysqli_connect('localhost','root','123') or die('数据库连接失败');//一真即真
+		//@mysqli_connect('localhost','root','123') or die('数据库连接失败');//一真即真
 	
 	if(isset($_POST['sub'])){
 		$sfile=$_FILES['sfile'];
