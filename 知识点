@@ -1,0 +1,25 @@
+<?php 
+	// echo var_dump() print_r()
+	/*PHP类型:8种类型
+		4个标量类型： int float string bool 
+	 * echo 输出标量类型 
+	 * var_dump();
+	 * 	2个复合类型： array OBJECT
+	 * 	2个特殊类型： null resource
+	 * 
+	 * */   
+	// is_null($var) isset() unset() 
+	 $str = 'laoshansmile';
+	//url http://localhost/index.php?id=1
+	//uri http://localhost/index.php/user/login
+	
+		//http://www.baidu.com/s?wd=javascript
+		// $str='wd=javascript';
+		// $arr=array('wd'=>'javascript');
+		// echo $arr['wd'];
+
+ ?>
+ 
+ <meta charset='utf-8'>
+ 
+<!-- html -->
